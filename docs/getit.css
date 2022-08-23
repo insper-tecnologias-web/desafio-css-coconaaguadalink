@@ -27,54 +27,160 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.logo {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.appbar {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #f7d736;
+  display: 	flex;
+  flex-direction: row;
+  color: #000000;
+  align-items: center;
+  padding: 8px;
+  font-size: 1.5em;
+  border-bottom: 1px solid #e0d426;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+  height: 40px;
+  border-radius: 7px;
+  border: #b7b5b5 solid 1px;
+  background-color:#f7d736;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.plaeholder{
+  border-color: transparent;
+}
+
+.form-card {
+  justify-content: space-between;
+  height: 150px;
+  display: flex;
+  width: 500px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  flex-direction: column;
+  border-color: #6f6d6d;
+  border-radius: 7px;
+  color: #6f6d6d;
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
+
+}
+
+.form-card-title {
+  border-color: transparent;
+  font-size: 1.5em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.autoresize{
+  height: 100px;
+  border-color:transparent;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  height: 140px;
+  width: 200px;
+  border-radius: 7px;
+  border: #b7b5b5 solid 1px;
+  background-color:#f7d736;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 15px;
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-content{
+  
+  font-family: 'Permanent Marker', cursive;
+  font-size: 0.9em;
+  color: #474545;
+  margin: 5px;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+.card-color-2{
+  background-color:#9de0f5;
+}
+.card-color-3{
+  background-color: #ef89ba;
+}
+.card-color-4{
+  background-color: #fae890;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(3deg);
+}
+.card-rotation-2{
+  transform: rotate(2deg);
+}
+.card-rotation-3{
+  transform: rotate(1deg);
+}
+.card-rotation-4{
+  transform: rotate(-1deg);
+}
+.card-rotation-5{
+  transform: rotate(-3deg);
+}
+.card-rotation-6{
+  transform: rotate(4deg);
+}
+.card-rotation-7{
+  transform: rotate(-2deg);
+}
+.card-rotation-8{
+  transform: rotate(-4deg);
+}
+.card-rotation-9{
+  transform: rotate(5deg);
+}
+.card-rotation-10{
+  transform: rotate(-5deg);
+}
+.card-rotation-11{
+  transform: rotate(6deg);
+}
+
+
+      
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-
-  overflow: hidden;
-
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
-  background-color: #f7d736;
-
-  transition: background-color 0.3s;
-}
-
-.btn > * {
-  position: relative;
-}
-
-.btn:before {
-  content: "";
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  display: block;
-  width: 0;
-  padding-top: 0;
-
-  border-radius: 100%;
-
-  background-color: rgba(236, 240, 241, 0.3);
-
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.btn:active:before {
-  width: 120%;
-  padding-top: 120%;
-
-  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+/* 
