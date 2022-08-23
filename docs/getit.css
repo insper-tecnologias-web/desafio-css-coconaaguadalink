@@ -28,8 +28,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 50px;
+  width: 90px;
+  height: 60px;
   margin: 10px;
   display: block;
   margin-bottom: 20px;
@@ -42,7 +42,7 @@ body {
   flex-direction: row;
   color: #000000;
   align-items: center;
-  padding: 8px;
+  padding: 6px;
   font-size: 1.5em;
   border-bottom: 1px solid #e0d426;
 }
@@ -64,6 +64,7 @@ body {
 
 .plaeholder{
   border-color: transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form-card {
@@ -86,16 +87,20 @@ body {
   border-color: transparent;
   font-size: 1.5em;
   color: #000000;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
 }
 
 .autoresize{
+  resize: none;
+  font-family: 'Roboto', sans-serif;
   height: 100px;
   border-color:transparent;
 }
 
 .card-container{
   display: flex;
+  width: 90%;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
@@ -103,30 +108,34 @@ body {
 
 
 .card{
-  height: 140px;
-  width: 200px;
+  height: 150px;
+  width: 220px;
   border-radius: 7px;
   border: #b7b5b5 solid 1px;
-  background-color:#f7d736;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin: 15px;
 }
 
 .card-title{
-  font-family: 'Permanent Marker', cursive;;
-  margin: 5px;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  font-size: 1.5em;
-  color: #000000;
-  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #2c2c2c;
+  margin-top: 10px;
+  margin-left: 10px;
+  
 }
 
 .card-content{
-  
   font-family: 'Permanent Marker', cursive;
   font-size: 0.9em;
-  color: #474545;
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  margin-left: 10px;
+  color: #4c4c4c;
 }
 
 .card-color-1{
@@ -178,6 +187,7 @@ body {
 .card-rotation-11{
   transform: rotate(6deg);
 }
+
 
 
       
